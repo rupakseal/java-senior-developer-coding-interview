@@ -18,4 +18,4 @@ jobs:
           java-version: '17'
           cache: maven
       - name: Compile and run dependency-free tests
-        run: ./run-tests.sh
+        run: bash ./run-tests.sh
